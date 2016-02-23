@@ -31,3 +31,7 @@ body {
   border: solid yellow 2px;
   border-radius: 10px;
 }
+
+.section {
+  background-color: #c68c53;
+}
