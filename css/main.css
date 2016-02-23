@@ -18,7 +18,7 @@ html {
 
 body {
   background-color: #d2a579;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 .hide {
@@ -30,6 +30,25 @@ body {
   color: white;
   border: solid yellow 2px;
   border-radius: 10px;
+}
+
+.title {
+  max-width: 18em;
+  width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  position: relative;
 }
 
 .section {
