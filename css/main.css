@@ -28,8 +28,6 @@ body {
 .intro {
   background-color: #996533;
   color: white;
-  border: solid yellow 2px;
-  border-radius: 10px;
   margin: auto;
 }
 
@@ -61,4 +59,9 @@ header {
 
 .margin {
   margin: auto;
+}
+
+.bg {
+  background-color: #996533;
+  color: #fff;
 }
