@@ -30,6 +30,7 @@ body {
   color: white;
   border: solid yellow 2px;
   border-radius: 10px;
+  margin: auto;
 }
 
 .title {
@@ -39,6 +40,7 @@ body {
 
 header {
   text-align: center;
+  background-color: #3C2417;
 }
 
 .wrapper {
@@ -51,4 +53,8 @@ header {
 
 .max {
   text-align: center;
+}
+
+.width {
+  max-width: 38em;
 }
