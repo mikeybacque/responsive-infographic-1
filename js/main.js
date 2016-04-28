@@ -1,5 +1,6 @@
 var $title = $('.title2');
 var $html = $('html');
+var $leaves = $('.leaves');
 
 $('.title2').on('click', function () {
   $('.title3').toggleClass('is-clicked');
@@ -132,5 +133,18 @@ $('.candy15').hover('', function () {
 
 $('.candy15').on('animationend', function () {
   $(this).removeClass('pulse');
+    }
+);
+
+$('.leaves').waypoint(function () {
+  $('.leaves').toggleClass('leaves-animate');
+}, {offset: '70%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoons').toggleClass('spoons-animate');
+}, {offset: '70%'});
+
+$('.leaves').on('transitionend', function () {
+  $('.leaf1').addClass('white');
     }
 );
