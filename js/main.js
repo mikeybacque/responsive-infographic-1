@@ -10,6 +10,10 @@ $(document).load('js/main.js', function () {
   $('.intro').addClass('load');
 });
 
+$(document).load('js/main.js', function () {
+  $title.addClass('wiggle');
+});
+
 $('.candy2').on('mouseenter', function () {
   $('.candy2').addClass('pulse');
 });
@@ -138,7 +142,7 @@ $('.candy15').on('animationend', function () {
 
 $('.leaves').waypoint(function () {
   $('.leaves').toggleClass('leaves-animate');
-}, {offset: '70%'});
+}, {offset: '60%'});
 
 $('.spoons').waypoint(function () {
   $('.spoons').toggleClass('spoons-animate');
