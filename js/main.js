@@ -5,7 +5,7 @@ $('.title2').on('click', function () {
   $('.title3').toggleClass('is-clicked');
 });
 
-$(document).load('', function () {
+$(document).load('main.js', function () {
   $('.intro').addClass('load');
 });
 
