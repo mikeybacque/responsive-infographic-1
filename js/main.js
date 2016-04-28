@@ -156,3 +156,7 @@ $('.leaves').on('transitionend', function () {
 $('.wrapper').waypoint(function () {
   $('.wrapper').toggleClass('wrapper-animate');
 }, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove').toggleClass('spoonmover');
+}, {offset: '100%'});
