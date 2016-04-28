@@ -29,11 +29,21 @@ body {
   background-color: #996533;
   color: white;
   margin: auto;
+  opacity: 0;
+  transition: all 1s linear;
 }
 
 .title {
   max-width: 18em;
   width: 100%;
+}
+
+.is-clicked {
+  fill: #000;
+}
+
+.load {
+  opacity: 1;
 }
 
 header {
@@ -64,4 +74,26 @@ header {
 .bg {
   background-color: #996533;
   color: #fff;
+}
+
+.pulse {
+  animation: size 1s alternate;
+}
+
+.candy2 {
+  width: auto;
+  transform-origin: center center;
+}
+
+@keyframes size {
+
+  0% {
+    width: 20%;
+    height: 20%;
+  }
+
+  100% {
+    width: 25%;
+    height: 25%;
+  }
 }
