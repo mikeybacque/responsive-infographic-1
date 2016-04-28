@@ -9,7 +9,7 @@ $(document).load('js/main.js', function () {
   $('.intro').addClass('load');
 });
 
-$('.candy2').hover('main.js', function () {
+$('.candy2').hover('', function () {
   $('.candy2').addClass('pulse');
 });
 
