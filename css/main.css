@@ -92,13 +92,11 @@ header {
 @keyframes size {
 
   0% {
-    width: 20%;
-    height: 20%;
+    transform: scale=1;
   }
 
   100% {
-    width: 25%;
-    height: 25%;
+    transform: scale(1.2);
   }
 }
 

@@ -12,7 +12,7 @@ $('.leaves').waypoint(function () {
 
 $('.spoons').waypoint(function () {
   $('.spoons').toggleClass('spoons-animate');
-}, {offset: '70%'});
+}, {offset: '20%'});
 
 $('.leaves').on('transitionend', function () {
   $('.leaf1').addClass('white');
