@@ -29,8 +29,19 @@ body {
   background-color: #996533;
   color: white;
   margin: auto;
-  opacity: 0;
-  transition: all 1s linear;
+  opacity: 1;
+  animation: fade 1s linear;
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .title {
@@ -40,10 +51,6 @@ body {
 
 .is-clicked {
   fill: #000;
-}
-
-.load {
-  opacity: 1;
 }
 
 header {
@@ -105,13 +112,7 @@ header {
 }
 
 .spoons {
-  opacity: 0;
   position: relative;
-}
-
-.spoons-animate {
-  opacity: 1;
-  transition: .5s all ease-in;
 }
 
 .white {
@@ -151,7 +152,8 @@ header {
 
 .spoonmove {
   position: absolute;
-  transform: translate(20em,-5em);
+  transform: translate(30em,-5em);
+  transform: rotate(270deg);
 }
 
 .spoonmover {
@@ -159,6 +161,280 @@ header {
   transition: .7s all ease-in;
 }
 
+.spoonmove2 {
+  position: absolute;
+  transform: translate(28em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover2 {
+  transform: translate(0,0);
+  transition: .75s all ease-in;
+}
+
+.spoonmove8 {
+  position: absolute;
+  transform: translate(26em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover8 {
+  transform: translate(0,0);
+  transition: .8s all ease-in;
+}
+
+.spoonmove9 {
+  position: absolute;
+  transform: translate(24em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover9 {
+  transform: translate(0,0);
+  transition: .85s all ease-in;
+}
+
+.spoonmove10 {
+  position: absolute;
+  transform: translate(22em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover10 {
+  transform: translate(0,0);
+  transition: .9s all ease-in;
+}
+
+.spoonmove4 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover4 {
+  transform: translate(0,0);
+  transition: .95s all ease-in;
+}
+
+.spoonmove5 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover5 {
+  transform: translate(0,0);
+  transition: 1s all ease-in;
+}
+
+.spoonmove6 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover6 {
+  transform: translate(0,0);
+  transition: 1.05s all ease-in;
+}
+
+.spoonmove7 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover7 {
+  transform: translate(0,0);
+  transition: 1.1s all ease-in;
+}
+
+.spoonmove11 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover11 {
+  transform: translate(0,0);
+  transition: 1.15s all ease-in;
+}
+
+.spoonmove12 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover12 {
+  transform: translate(0,0);
+  transition: 1.2s all ease-in;
+}
+
+.spoonmove13 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover13 {
+  transform: translate(0,0);
+  transition: 1.25s all ease-in;
+}
+
+.spoonmove14 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover14 {
+  transform: translate(0,0);
+  transition: 1.3s all ease-in;
+}
+
+.spoonmove15 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover15 {
+  transform: translate(0,0);
+  transition: 1.35s all ease-in;
+}
+
+.spoonmove20 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover20 {
+  transform: translate(0,0);
+  transition: 1.4s all ease-in;
+}
+
+.spoonmove21 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover21 {
+  transform: translate(0,0);
+  transition: 1.45s all ease-in;
+}
+
+.spoonmove24 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover24 {
+  transform: translate(0,0);
+  transition: 1.5s all ease-in;
+}
+
+.spoonmove16 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover16 {
+  transform: translate(0,0);
+  transition: 1.55s all ease-in;
+}
+
+.spoonmove17 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover17 {
+  transform: translate(0,0);
+  transition: 1.6s all ease-in;
+}
+
+.spoonmove18 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover18 {
+  transform: translate(0,0);
+  transition: 1.65s all ease-in;
+}
+
+.spoonmove19 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover19 {
+  transform: translate(0,0);
+  transition: 1.7s all ease-in;
+}
+
+.spoonmove22 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover22 {
+  transform: translate(0,0);
+  transition: 1.75s all ease-in;
+}
+
+.spoonmove23 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover23 {
+  transform: translate(0,0);
+  transition: 1.8s all ease-in;
+}
+
+.spoonmove28 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover28 {
+  transform: translate(0,0);
+  transition: 1.85s all ease-in;
+}
+
+.spoonmove25 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover25 {
+  transform: translate(0,0);
+  transition: 1.9s all ease-in;
+}
+
+.spoonmove29 {
+  position: absolute;
+  transform: translate(20em,-5em);
+  transform: rotate(270deg);
+}
+
+.spoonmover29 {
+  transform: translate(0,0);
+  transition: 1.95s all ease-in;
+}
 
 @keyframes move {
 

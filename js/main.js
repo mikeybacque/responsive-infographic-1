@@ -6,13 +6,18 @@ $('.title2').on('click', function () {
   $('.title3').toggleClass('is-clicked');
 });
 
-$(document).load('js/main.js', function () {
-  $('.intro').addClass('load');
-});
+$('.leaves').waypoint(function () {
+  $('.leaves').toggleClass('leaves-animate');
+}, {offset: '60%'});
 
-$(document).load('js/main.js', function () {
-  $title.addClass('wiggle');
-});
+$('.spoons').waypoint(function () {
+  $('.spoons').toggleClass('spoons-animate');
+}, {offset: '70%'});
+
+$('.leaves').on('transitionend', function () {
+  $('.leaf1').addClass('white');
+    }
+);
 
 $('.candy2').on('mouseenter', function () {
   $('.candy2').addClass('pulse');
@@ -140,23 +145,110 @@ $('.candy15').on('animationend', function () {
     }
 );
 
-$('.leaves').waypoint(function () {
-  $('.leaves').toggleClass('leaves-animate');
-}, {offset: '60%'});
-
-$('.spoons').waypoint(function () {
-  $('.spoons').toggleClass('spoons-animate');
-}, {offset: '70%'});
-
-$('.leaves').on('transitionend', function () {
-  $('.leaf1').addClass('white');
-    }
-);
-
 $('.wrapper').waypoint(function () {
   $('.wrapper').toggleClass('wrapper-animate');
 }, {offset: '100%'});
 
 $('.spoons').waypoint(function () {
   $('.spoonmove').toggleClass('spoonmover');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove2').toggleClass('spoonmover2');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove4').toggleClass('spoonmover4');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove5').toggleClass('spoonmover5');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove6').toggleClass('spoonmover6');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove7').toggleClass('spoonmover7');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove8').toggleClass('spoonmover8');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove9').toggleClass('spoonmover9');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove10').toggleClass('spoonmover10');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove11').toggleClass('spoonmover11');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove12').toggleClass('spoonmover12');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove13').toggleClass('spoonmover13');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove14').toggleClass('spoonmover14');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove15').toggleClass('spoonmover15');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove16').toggleClass('spoonmover16');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove17').toggleClass('spoonmover17');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove18').toggleClass('spoonmover18');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove19').toggleClass('spoonmover19');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove20').toggleClass('spoonmover20');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove21').toggleClass('spoonmover21');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove22').toggleClass('spoonmover22');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove23').toggleClass('spoonmover23');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove24').toggleClass('spoonmover24');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove25').toggleClass('spoonmover25');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove28').toggleClass('spoonmover28');
+}, {offset: '100%'});
+
+$('.spoons').waypoint(function () {
+  $('.spoonmove29').toggleClass('spoonmover29');
 }, {offset: '100%'});
