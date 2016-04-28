@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background-color: #d2a579;
+  background-color: #996533;
   font-family: "Lora", serif;
 }
 
@@ -51,10 +51,6 @@ header {
   background-color: #3c2417;
 }
 
-.wrapper {
-  width: 100%;
-}
-
 .section {
   background-color: #c68c53;
 }
@@ -74,6 +70,7 @@ header {
 .bg {
   background-color: #996533;
   color: #fff;
+  position: relative;
 }
 
 .pulse {
@@ -118,5 +115,19 @@ header {
 
 .white {
   fill: #fff;
-  transition: .5s all ease-in;
+  transition: 1s all ease-in;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: -10em;
+}
+
+.conclusion {
+  display: block;
+}
+
+.light {
+  background-color: #d2a579;
 }
