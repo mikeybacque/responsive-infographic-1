@@ -8,11 +8,11 @@ $('.title2').on('click', function () {
 
 $('.leaves').waypoint(function () {
   $('.leaves').toggleClass('leaves-animate');
-}, {offset: '60%'});
+}, {offset: '50%'});
 
 $('.spoons').waypoint(function () {
   $('.spoons').toggleClass('spoons-animate');
-}, {offset: '20%'});
+}, {offset: '50%'});
 
 $('.leaves').on('transitionend', function () {
   $('.leaf1').addClass('white');
